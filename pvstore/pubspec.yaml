@@ -1,0 +1,20 @@
+name: pvstore
+description: A Flutter project implementing AdMob with rewarded ads functionality.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/  # Add your asset paths here if needed.
