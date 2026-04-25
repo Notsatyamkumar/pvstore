@@ -28,25 +28,7 @@ A mobile application built with Flutter that wraps the [PV Store Web Platform](h
 - Unity Ads Game ID
 - Firebase Project setup (for push notifications)
 
-### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Notsatyamkumar/pvstore.git
-   cd pvstore
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Firebase Configuration:**
-   Ensure you have the `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) configured in their respective directories if setting up from scratch.
-
-4. **Run the App:**
-   ```bash
-   flutter run
    ```
 
 ## 🎮 How to Earn Points
