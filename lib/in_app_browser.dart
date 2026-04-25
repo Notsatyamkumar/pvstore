@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:flutter/material.dart';iimport 'package:webview_flutter/webview_flutter.dart';
 
 class InAppBrowser extends StatefulWidget {
   final String allowedUrl;
@@ -50,6 +49,9 @@ late final WebViewController _controller;
   }
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+
+ild(BuildContext context) {
     return Scaffold(
 
       body: WebViewWidget(controller: _controller),
